@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ex_4.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/quote_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="5"
+        android:inputType="number|numberDecimal"
+        android:text="Minutes"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+</android.support.constraint.ConstraintLayout>
