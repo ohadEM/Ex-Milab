@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.client.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <EditText
+        android:id="@+id/coinNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/notification_Button"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <Button
+        android:id="@+id/notification_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coinNameText"
+        android:layout_centerHorizontal="true"
+        android:text="Notify"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/coinsQuotesText"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/notification_Button"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toStartOf="@+id/coinNameText"
+        tools:layout_editor_absoluteY="259dp" />
+
+</android.support.constraint.ConstraintLayout>
